@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><bills>
+	<bill id="B1">
+		<amount>300.00</amount>
+		<groupid>Group1</groupid>
+        <paiddetails>
+			<paidby>
+				<personid>Person1</personid>
+				<paidamount>300</paidamount>
+			</paidby>
+		</paiddetails>		
+		<contributors>
+			<contributor>
+				<personid>Person1</personid>
+				<shareamount>100</shareamount>
+			</contributor>
+			
+			<contributor>
+				<personid>Person2</personid>
+				<shareamount>200</shareamount>
+			</contributor>
+		</contributors>
+	</bill>
+	
+	<bill id="B2">
+		<amount>500.00</amount>
+		<groupid>Group1</groupid>
+		<paiddetails>
+			<paidby>
+				<personid>Person2</personid>
+				<paidamount>500.00</paidamount>
+			</paidby>
+		</paiddetails>
+		<contributors>
+			<contributor>
+				<personid>Person1</personid>
+				<shareamount>250</shareamount>
+			</contributor>
+			
+			<contributor>
+				<personid>Person2</personid>
+				<shareamount>250</shareamount>
+			</contributor>
+		</contributors>
+	</bill>
+	
+	<bill id="B3">
+		<amount>100.00</amount>
+		<groupid>Group2</groupid>
+		<paiddetails>
+			<paidby>
+				<personid>Person3</personid>
+				<paidamount>100</paidamount>
+			</paidby>
+		</paiddetails>
+		<contributors>
+			<contributor>
+				<personid>Person2</personid>
+				<shareamount>10</shareamount>
+			</contributor>
+			
+			<contributor>
+				<personid>Person3</personid>
+				<shareamount>90</shareamount>
+			</contributor>
+		</contributors>
+	</bill>
+	
+	<bill id="B4">
+		<amount>300</amount>
+		<groupid>Group2</groupid>
+		<paiddetails>
+			<paidby>
+				<personid>Person3</personid>
+				<paidamount>100</paidamount>
+			</paidby>
+			
+			<paidby>
+				<personid>Person2</personid>
+				<paidamount>200</paidamount>
+			</paidby>
+		</paiddetails>
+		<contributors>
+			<contributor>
+				<personid>Person3</personid>
+				<shareamount>150</shareamount>
+			</contributor>
+			
+			<contributor>
+				<personid>Person2</personid>
+				<shareamount>150</shareamount>
+			</contributor>
+		</contributors>
+	</bill>
+</bills>
